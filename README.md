@@ -42,14 +42,14 @@ As of now, here are the things that are implemented:
 
 | Action                              | Function                                         |
 |-------------------------------------|--------------------------------------------------|
-| File Creation                       | 'prog-snippet--create-file                       |
-| Modify Title                        | 'prog-snippet--modify-title                      |
-| List Current File's tags            | 'prog-snippet--get-file-tags                     |
-| Query Tags (Simple)                 | 'prog-snippet--basic-search                      |
-| Query Tags (More Advanced)          | 'prog-snippet--full-search                       |
-| Query and Paste all Matches in File | 'prog-snippet--export-query-results              |
-| Init / Delete Database              | 'prog-snippet--initialize / 'prog-snippet--reset |
-|-------------------------------------|--------------------------------------------------|
+| File Creation                       | `prog-snippet--create-file`                      |
+| Modify Title                        | `prog-snippet--modify-title`                     |
+| List Current File's tags            | `prog-snippet--get-file-tags`                    |
+| Query Tags (Simple)                 | `prog-snippet--basic-search`                     |
+| Query Tags (More Advanced)          | `prog-snippet--full-search`                      |
+| Query and Paste all Matches in File | `prog-snippet--export-query-results`             |
+| Init / Delete Database              | `prog-snippet--initialize / prog-snippet--reset` |
+
 
 Note that you need to run `prog-snippet--initialize` to create and load the
 database. Running `prog-snippet--reset` WILL delete all entries in the database
